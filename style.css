@@ -8,12 +8,39 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*---Media response on different devices---*/
+/* Mobile Phones */
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    *{
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    *{
+      width: 80%;
+      padding: 0;
+    }
+    *{
+      width: 100%;
+    }
+}
+
 .hero{
     position: relative;
     width: 100%;
     height: 150vh;
     background: whitesmoke;
     background-size: cover;
+}
+
+.hero h1{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 nav{
