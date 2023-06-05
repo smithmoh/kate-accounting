@@ -8,26 +8,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*---Media response on different devices---*/
-/* Mobile Phones */
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    *{
-      width: 100%;
-    }
-}
-
-@media only screen and (max-width:800px) {
-    /* For tablets: */
-    *{
-      width: 80%;
-      padding: 0;
-    }
-    *{
-      width: 100%;
-    }
-}
-
 .hero{
     position: relative;
     width: 100%;
@@ -419,4 +399,100 @@ footer p:nth-child(2){
     color: orange;
     bottom: 35px;
     font-size: 14px;
+}
+
+/*---Media response on different devices---*/
+/* Mobile Phones */
+@media only screen and (max-width: 620px) {
+    .ann{
+        width: 330px;
+        height: 50vh;
+        left: -50%;
+        right: 0%;
+        top: auto;
+        bottom: auto;
+    }
+    .detel{
+        margin-left: 8%;
+        margin-top: 15%;
+    }        
+    .detel h1{
+        font-size: 50px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .detel a{
+        width: 70%;
+        padding: 10px 14px;
+        margin: 30px 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .hero{
+        height: 160vh;
+    }
+    .hero h1{
+        font-size: 25px;
+    }
+    .hero h2{
+        font-size: 19px;
+    }
+
+    .woman{
+        height: 65vh;
+        width: 330px;
+        bottom: auto;
+        left: 5%;
+        right: 0%;
+        top: 255%;
+    }
+    .about-text{
+        height: 165vh;
+    }
+    .about-text h1{
+        font-size: 4rem;
+    }
+    .about-text h2{
+        font-size: 2.5rem;
+    }
+    .about-text p{
+        font-size: 20px;
+    }
+    button{
+        padding: 10px 25px;
+        border: round;
+        font-size: 20px;
+        width: 50%;
+    }
+
+    .title h2{
+        font-size: 55px;
+        width: 900px;
+        margin: 30px auto;
+        text-align: left;
+        justify-content: center;
+    }
+    .box{
+        display: list-item;
+    }
+    .card{
+        width: 300;
+        height: 360;
+        padding: 20px 35px;
+    }
+    
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    *{
+      width: 80%;
+      padding: 0;
+    }
+    *{
+      width: 100%;
+    }
 }
